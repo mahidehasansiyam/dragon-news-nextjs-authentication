@@ -11,10 +11,10 @@ const RegestrationPage = () => {
     watch,
     formState: { errors },
   } = useForm()
-  console.log(errors);
+  // console.log(errors);
   
   const onSubmit = async data => {
-    // console.log(data);
+    console.log(data);
 
     const { data:res, error } = await authClient.signUp.email({
     name: data.name,
@@ -23,7 +23,7 @@ const RegestrationPage = () => {
     callbackURL: "/",
     });
 
-    // console.log(res, error);
+    console.log(res, error);
     
      if (res) {
        alert('Your regestration Successful');

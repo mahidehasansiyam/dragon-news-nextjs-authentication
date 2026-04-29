@@ -67,14 +67,14 @@ const LogingPage = () => {
               <span className="text-blue-600 underline">Regester</span>
             </Link>{' '}
           </p>
-          <button onClick={handlegoogle}>
-            <div className="flex items-center justify-center gap-2 border-2 p-2 border-green-600 text-green-600 font-bold">
-              <FaGoogle />
-              <h2 className="r">Log in with google</h2>
-            </div>
-          </button>
         </fieldset>
       </form>
+      <button onClick={handlegoogle}>
+        <div className="flex items-center justify-center gap-2 border-2 p-2 border-green-600 text-green-600 font-bold">
+          <FaGoogle />
+          <h2 className="r">Log in with google</h2>
+        </div>
+      </button>
     </div>
   );
 };

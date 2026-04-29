@@ -13,7 +13,7 @@ const RightSide = () => {
     <div className="">
       <button
         onClick={handlegoogle}
-        className="bg-green-500 p-2 text-white font-bold rounded-2xl"
+        className="bg-green-500 p-2 text-white font-bold rounded-2xl btn"
       >
         Log in with google
       </button>

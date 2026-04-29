@@ -34,7 +34,7 @@ const LogingPage = () => {
 
   return (
     <div className="h-[100vh] flex flex-col justify-center items-center bg-sky-800">
-      <div className='bg-white'>
+      <div className="bg-white">
         <form onSubmit={handleSubmit(onSubmit)}>
           <fieldset className="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
             <label className="label">Email</label>
@@ -70,8 +70,11 @@ const LogingPage = () => {
             </p>
           </fieldset>
         </form>
-        <button className="w-full  p-3 flex justify-center items-center" onClick={handlegoogle}>
-          <div className="flex items-center justify-center gap-2 border-2 p-2 rounded-2xl bg-green-600 text-white font-bold">
+        <button
+          className="mx-auto bg-green-600 btn mb-3 p-3 flex justify-center items-center"
+          onClick={handlegoogle}
+        >
+          <div className="flex items-center justify-center gap-2 p-2 rounded-2xl  text-white font-bold ">
             <FaGoogle />
             <h2 className="r">Log in with google</h2>
           </div>
